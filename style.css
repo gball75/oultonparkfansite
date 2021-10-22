@@ -47,7 +47,7 @@ body {
     font-size: 22px;
 }
 
-  /* highlight links on mouse-over */
+  /* Inverse links on mouse-over */
 #menubar a:hover {
     color: #080627;
     background-color: #ffff00;
@@ -77,18 +77,22 @@ p {
 }
 
 .table {
-    margin-top: 95px; /* Add a top margin to avoid content overlay */
+    
     display: flex;
     flex-direction: column;
     width: 900px;
+    margin-top: 95px; /* Add a top margin to avoid content overlay */
     margin-left: auto;
     margin-right: auto;
+    align-items: center;
 }
 
 .row {
     display: flex;
     flex-direction: row;
     padding: 20px;
+    align-items: center;
+    justify-items: center;
 }
 
 .centretext {
@@ -97,6 +101,8 @@ p {
 
 .mainpageimages {
     width: 350px;
+    margin-left: 10px;
+    margin-right: 10px;
     border-style: solid;
     border-color: #080627;
     border-width: 5px;
@@ -112,6 +118,28 @@ p {
 .galleryimages {
     width: 200px;
     border-style: solid;
-    border-color: #080627;
+    border-color: #0d0942;
     border-width: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    
+}
+
+.galleryimages:hover {
+    border-color: #ffff00;
+}
+
+.linkspage {
+    color: #ffff00;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.linkpage a {
+    color: #ffff00;
+}
+
+.linkspage:hover {
+    color: #2415aa;
 }
